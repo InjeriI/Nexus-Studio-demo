@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Услуги Nexus Studio — веб-разработка, мобильные приложения, дизайн, SEO и маркетинг">
+    <meta property="og:title" content="Услуги | Nexus Studio">
+    <meta property="og:description" content="Создаем веб-сайты, мобильные приложения, UI/UX дизайн и продвигаем бизнес онлайн">
+    <meta property="og:image" content="./assets/img/og-image.jpg">
+    <title>Услуги | Nexus Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-service">
+    <!-- Хедер -->
+    <header class="header" data-header>
+        <div class="container header-container">
+            <a href="index.html" class="logo" aria-label="Nexus Studio - Главная">
+                <span class="logo-icon">✨</span>
+                <span class="logo-text">Nexus Studio</span>
+            </a>
+            
+            <nav class="nav" aria-label="Основная навигация">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Главная</a></li>
+                    <li><a href="services.html" class="nav-link active">Услуги</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Портфолио</a></li>
+                    <li><a href="process.html" class="nav-link">Процесс</a></li>
+                    <li><a href="blog.html" class="nav-link">Блог</a></li>
+                    <li><a href="about.html" class="nav-link">О нас</a></li>
+                    <li><a href="contact.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="theme-toggle" aria-label="Переключить тему" data-theme-toggle>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                    </svg>
+                </button>
+                <button class="burger-menu" aria-label="Меню" data-burger-menu>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Мобильное меню -->
+        <div class="mobile-menu" data-mobile-menu>
+            <div class="mobile-menu-header">
+                <a href="index.html" class="logo" aria-label="Nexus Studio - Главная">
+                    <span class="logo-icon">✨</span>
+                    <span class="logo-text">Nexus Studio</span>
+                </a>
+                <button class="burger-menu active" aria-label="Закрыть меню" data-burger-menu>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="index.html" class="mobile-nav-link">Главная</a></li>
+                <li><a href="services.html" class="mobile-nav-link active">Услуги</a></li>
+                <li><a href="portfolio.html" class="mobile-nav-link">Портфолио</a></li>
+                <li><a href="process.html" class="mobile-nav-link">Процесс</a></li>
+                <li><a href="blog.html" class="mobile-nav-link">Блог</a></li>
+                <li><a href="about.html" class="mobile-nav-link">О нас</a></li>
+                <li><a href="contact.html" class="mobile-nav-link">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu-actions">
+                <button class="btn btn-lg btn-primary">Обсудить проект</button>
+                <button class="theme-toggle" aria-label="Переключить тему" data-theme-toggle>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    <!-- Герой -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Мы создаем цифровые продукты, которые работают</h1>
+                <p>Полный спектр услуг для создания и продвижения вашего цифрового продукта: от идеи до запуска и поддержки.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши услуги</h2>
+                <p>Комплексный подход к созданию цифровых продуктов под ключ</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-service="web">
+                    <div class="service-icon-container">🌐</div>
+                    <div class="service-content">
+                        <h3>Веб-разработка</h3>
+                        <p class="service-description">Современные сайты и веб-приложения на React, Vue и Next.js с адаптивным дизайном и высокой производительностью.</p>
+                        <div class="service-tech-list">
+                            <span class="service-tech-item">React</span>
+                            <span class="service-tech-item">Vue</span>
+                            <span class="service-tech-item">Next.js</span>
+                            <span class="service-tech-item">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-service="mobile">
+                    <div class="service-icon-container">📱</div>
+                    <div class="service-content">
+                        <h3>Мобильные приложения</h3>
+                        <p class="service-description">Кроссплатформенные и нативные приложения для iOS и Android с интуитивным интерфейсом и надежной архитектурой.</p>
+                        <div class="service-tech-list">
+                            <span class="service-tech-item">React Native</span>
+                            <span class="service-tech-item">Flutter</span>
+                            <span class="service-tech-item">iOS</span>
+                            <span class="service-tech-item">Android</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-service="design">
+                    <div class="service-icon-container">🎨</div>
+                    <div class="service-content">
+                        <h3>UI/UX дизайн</h3>
+                        <p class="service-description">Продуманные интерфейсы и удобные пользовательские сценарии, созданные на основе исследований и прототипирования.</p>
+                        <div class="service-tech-list">
+                            <span class="service-tech-item">Figma</span>
+                            <span class="service-tech-item">Прототипирование</span>
+                            <span class="service-tech-item">UX-исследования</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-service="branding">
+                    <div class="service-icon-container">🏷️</div>
+                    <div class="service-content">
+                        <h3>Брендинг и айдентика</h3>
+                        <p class="service-description">Разработка уникального визуального стиля, логотипов, фирменных цветов и шрифтов для вашего бренда.</p>
+                        <div class="service-tech-list">
+                            <span class="service-tech-item">Логотип</span>
+                            <span class="service-tech-item">Гайдлайн</span>
+                            <span class="service-tech-item">Печатная продукция</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-service="marketing">
+                    <div class="service-icon-container">📊</div>
+                    <div class="service-content">
+                        <h3>SEO и цифровой маркетинг</h3>
+                        <p class="service-description">Продвижение сайтов в поисковых системах и настройка систем аналитики для отслеживания эффективности.</p>
+                        <div class="service-tech-list">
+                            <span class="service-tech-item">SEO</span>
+                            <span class="service-tech-item">Контекст</span>
+                            <span class="service-tech-item">SMM</span>
+                            <span class="service-tech-item">Email-маркетинг</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-service="support">
+                    <div class="service-icon-container">🔧</div>
+                    <div class="service-content">
+                        <h3>Поддержка и аудит</h3>
+                        <p class="service-description">Техническая поддержка, мониторинг, оптимизация и аудит существующих цифровых продуктов.</p>
+                        <div class="service-tech-list">
+                            <span class="service-tech-item">Аудит</span>
+                            <span class="service-tech-item">Оптимизация</span>
+                            <span class="service-tech-item">Мониторинг</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Калькулятор -->
+    <section class="section" style="background-color: var(--color-lunar-dust);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Калькулятор стоимости</h2>
+                <p>Оцените примерную стоимость проекта</p>
+            </div>
+            
+            <div class="calculator-section">
+                <form class="calculator-form">
+                    <div class="form-group">
+                        <label>Выберите базовую услугу:</label>
+                        <select id="base-service" class="btn btn-secondary" style="width:100%; padding:12px;">
+                            <option value="web">Веб-разработка ($3000)</option>
+                            <option value="mobile">Мобильное приложение ($5000)</option>
+                            <option value="design">UI/UX дизайн ($2000)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Дополнительные опции:</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-item">
+                                <input type="checkbox" data-price="500" data-name="responsive"> Адаптивность (+$500)
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" data-price="1000" data-name="admin"> Админка (+$1000)
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" data-price="800" data-name="integration"> Интеграции с CRM/ERP (+$800)
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" data-price="300" data-name="analytics"> Настройка аналитики (+$300)
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="calculator-result">
+                        <p>Предварительная стоимость:</p>
+                        <div class="result-value" id="total-cost">$3000</div>
+                        <p>Срок реализации: 2-4 недели</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно -->
+    <div class="modal-overlay" id="service-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="modal-title">Заголовок услуги</h3>
+                <button class="modal-close" id="close-modal">&times;</button>
+            </div>
+            <div class="modal-content">
+                <div class="modal-price-range" id="modal-price">От $3000</div>
+                <p id="modal-description">Описание услуги</p>
+                
+                <div class="modal-steps">
+                    <h4>Этапы работы:</h4>
+                    <ol class="steps-list" id="modal-steps-list">
+                        <li>Анализ и стратегия</li>
+                        <li>Дизайн и прототипирование</li>
+                        <li>Разработка</li>
+                        <li>Тестирование и запуск</li>
+                    </ol>
+                </div>
+                
+                <div class="modal-examples">
+                    <h4>Примеры работ:</h4>
+                    <div class="examples-list" id="modal-examples-list">
+                        <div class="example-card">📦</div>
+                        <div class="example-card">🛒</div>
+                        <div class="example-card">📱</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-icon">✨</span>
+                        <span>Nexus <span>Studio</span></span>
+                    </div>
+                    <p>Создаем цифровые продукты, которые помогают бизнесу расти, привлекать клиентов и достигать стратегических целей.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Telegram">✈️</a>
+                        <a href="#" class="social-link" aria-label="VK">VK</a>
+                        <a href="#" class="social-link" aria-label="Behance">B</a>
+                        <a href="#" class="social-link" aria-label="GitHub">G</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Навигация</h3>
+                    <div class="footer-links-grid">
+                        <a href="index.html" class="footer-link">Главная</a>
+                        <a href="services.html" class="footer-link">Услуги</a>
+                        <a href="portfolio.html" class="footer-link">Портфолио</a>
+                        <a href="process.html" class="footer-link">Процесс</a>
+                        <a href="blog.html" class="footer-link">Блог</a>
+                        <a href="about.html" class="footer-link">О нас</a>
+                        <a href="contact.html" class="footer-link">Контакты</a>
+                    </div>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Контакты</h3>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>hello@nexusstudio.ru</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>+7 (495) 123-45-67</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">🏢</span>
+                        <span>Москва, ул. Тверская, 15</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nexus Studio. Все права защищены. Создано с ❤️ на чистом HTML, CSS и Vanilla JS.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

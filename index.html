@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nexus Studio — цифровое агентство, создающее инновационные веб-решения и приложения для вашего бизнеса">
+    <meta property="og:title" content="Nexus Studio — Цифровые решения для вашего бизнеса">
+    <meta property="og:description" content="Создаем веб-сайты, мобильные приложения и цифровые стратегии, которые помогают бизнесу расти">
+    <meta property="og:image" content="https://placehold.co/1200x630/0f172a/7e3af2?text=Nexus+Studio">
+    <title>Nexus Studio — Цифровые решения для вашего бизнеса</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="page-home">
+    <!-- Хедер -->
+    <header class="header" data-header>
+        <div class="container header-container">
+            <a href="index.html" class="logo" aria-label="Nexus Studio - Главная">
+                <span class="logo-icon">✨</span>
+                <span class="logo-text">Nexus Studio</span>
+            </a>
+            
+            <nav class="nav" aria-label="Основная навигация">
+                <ul class="nav-links">
+                    <li><a href="services.html" class="nav-link">Услуги</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Портфолио</a></li>
+                    <li><a href="process.html" class="nav-link">Процесс</a></li>
+                    <li><a href="blog.html" class="nav-link">Блог</a></li>
+                    <li><a href="about.html" class="nav-link">О нас</a></li>
+                    <li><a href="contact.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="theme-toggle" aria-label="Переключить тему" data-theme-toggle>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                    </svg>
+                </button>
+                <button class="burger-menu" aria-label="Меню" data-burger-menu>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Мобильное меню -->
+        <div class="mobile-menu" data-mobile-menu>
+            <div class="mobile-menu-header">
+                <a href="index.html" class="logo" aria-label="Nexus Studio - Главная">
+                    <span class="logo-icon">✨</span>
+                    <span class="logo-text">Nexus Studio</span>
+                </a>
+                <button class="burger-menu active" aria-label="Закрыть меню" data-burger-menu>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="services.html" class="mobile-nav-link">Услуги</a></li>
+                <li><a href="portfolio.html" class="mobile-nav-link">Портфолио</a></li>
+                <li><a href="process.html" class="mobile-nav-link">Процесс</a></li>
+                <li><a href="blog.html" class="mobile-nav-link">Блог</a></li>
+                <li><a href="about.html" class="mobile-nav-link">О нас</a></li>
+                <li><a href="contact.html" class="mobile-nav-link">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu-actions">
+                <button class="btn btn-lg btn-primary">Обсудить проект</button>
+                <button class="theme-toggle" aria-label="Переключить тему" data-theme-toggle>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content animate">
+                <div class="hero-subtitle">Цифровые решения для бизнеса</div>
+                <h1>Цифровые решения, которые растут вместе с вашим бизнесом</h1>
+                <p>Создаем веб-сайты, мобильные приложения и цифровые стратегии, которые помогают компаниям достигать новых высот и привлекать больше клиентов.</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-lg">Обсудить проект</a>
+                    <a href="portfolio.html" class="btn btn-secondary btn-lg">Посмотреть кейсы</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="particles" aria-hidden="true">
+            <div class="particle" style="width: 8px; height: 8px; top: 20%; left: 10%; animation-delay: 0s;"></div>
+            <div class="particle" style="width: 12px; height: 12px; top: 40%; left: 25%; animation-delay: 2s;"></div>
+            <div class="particle" style="width: 6px; height: 6px; top: 60%; left: 5%; animation-delay: 4s;"></div>
+            <div class="particle" style="width: 10px; height: 10px; top: 30%; left: 80%; animation-delay: 1s;"></div>
+            <div class="particle" style="width: 14px; height: 14px; top: 70%; left: 75%; animation-delay: 3s;"></div>
+            <div class="particle" style="width: 8px; height: 8px; top: 15%; left: 60%; animation-delay: 5s;"></div>
+            <div class="particle" style="width: 10px; height: 10px; top: 55%; left: 40%; animation-delay: 0.5s;"></div>
+            <div class="particle" style="width: 6px; height: 6px; top: 85%; left: 30%; animation-delay: 2.5s;"></div>
+            <div class="particle" style="width: 12px; height: 12px; top: 10%; left: 45%; animation-delay: 3.5s;"></div>
+            <div class="particle" style="width: 8px; height: 8px; top: 75%; left: 20%; animation-delay: 1.5s;"></div>
+        </div>
+    </section>
+
+    <!-- Ценности -->
+    <section class="section values">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Наши ценности</h2>
+                <p>Мы верим, что лучшие результаты достигаются через прозрачность, инновации и ориентацию на результат</p>
+            </div>
+            
+            <div class="values-grid">
+                <div class="value-card animate animate-delay-1">
+                    <div class="value-icon">🚀</div>
+                    <h3>Инновации</h3>
+                    <p>Постоянно изучаем новые технологии и подходы, чтобы предлагать клиентам самые современные решения.</p>
+                </div>
+                <div class="value-card animate animate-delay-2">
+                    <div class="value-icon">🔍</div>
+                    <h3>Прозрачность</h3>
+                    <p>Честно рассказываем о возможностях и ограничениях, предоставляем отчеты и всегда на связи.</p>
+                </div>
+                <div class="value-card animate animate-delay-3">
+                    <div class="value-icon">📈</div>
+                    <h3>Результат</h3>
+                    <p>Работаем не ради процесса, а ради достижения ваших бизнес-целей и измеримых показателей роста.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Наши услуги</h2>
+                <p>Комплексный подход к созданию цифровых продуктов под ключ</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card animate animate-delay-1">
+                    <div class="service-icon-container">🌐</div>
+                    <div class="service-content">
+                        <h3>Веб-разработка</h3>
+                        <p>Современные сайты и веб-приложения на React, Vue и Next.js с адаптивным дизайном и высокой производительностью.</p>
+                        <a href="services.html#web" class="service-link">Подробнее</a>
+                    </div>
+                </div>
+                <div class="service-card animate animate-delay-2">
+                    <div class="service-icon-container">📱</div>
+                    <div class="service-content">
+                        <h3>Мобильные приложения</h3>
+                        <p>Кроссплатформенные и нативные приложения для iOS и Android с интуитивным интерфейсом и надежной архитектурой.</p>
+                        <a href="services.html#mobile" class="service-link">Подробнее</a>
+                    </div>
+                </div>
+                <div class="service-card animate animate-delay-3">
+                    <div class="service-icon-container">🎨</div>
+                    <div class="service-content">
+                        <h3>UI/UX дизайн</h3>
+                        <p>Продуманные интерфейсы и удобные пользовательские сценарии, созданные на основе исследований и прототипирования.</p>
+                        <a href="services.html#design" class="service-link">Подробнее</a>
+                    </div>
+                </div>
+                <div class="service-card animate animate-delay-4">
+                    <div class="service-icon-container">📊</div>
+                    <div class="service-content">
+                        <h3>SEO и аналитика</h3>
+                        <p>Продвижение сайтов в поисковых системах и настройка систем аналитики для отслеживания эффективности.</p>
+                        <a href="services.html#seo" class="service-link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section class="section" style="background-color: var(--color-lunar-dust);">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Наши работы</h2>
+                <p>Реальные проекты, которые мы создали для наших клиентов</p>
+            </div>
+            
+            <div class="portfolio-filters animate">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="web">Сайты</button>
+                <button class="filter-btn" data-filter="app">Приложения</button>
+                <button class="filter-btn" data-filter="branding">Брендинг</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-card animate animate-delay-1" data-category="web app">
+                    <div class="portfolio-img" aria-label="Скриншот проекта Эко-Маркет"></div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Сайт</span>
+                            <span class="portfolio-tag">Приложение</span>
+                        </div>
+                        <h3>Эко-Маркет</h3>
+                        <p>Платформа для экологичных товаров с личным кабинетом и системой лояльности.</p>
+                        <div class="portfolio-result">
+                            <span>★</span> +200% конверсии
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card animate animate-delay-2" data-category="branding web">
+                    <div class="portfolio-img" aria-label="Скриншот проекта Кофейня Bean"></div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Брендинг</span>
+                            <span class="portfolio-tag">Сайт</span>
+                        </div>
+                        <h3>Кофейня Bean</h3>
+                        <p>Полный ребрендинг сети кофеен: айдентика, упаковка, сайт и мобильное приложение для заказа.</p>
+                        <div class="portfolio-result">
+                            <span>★</span> +150% узнаваемости
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card animate animate-delay-3" data-category="app">
+                    <div class="portfolio-img" aria-label="Скриншот проекта Фитнес-трекер FitLife"></div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Приложение</span>
+                        </div>
+                        <h3>FitLife</h3>
+                        <p>Мобильное приложение для трекинга фитнес-активности с персонализированными программами тренировок.</p>
+                        <div class="portfolio-result">
+                            <span>★</span> 4.9/5 в магазинах
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Процесс -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Наш процесс</h2>
+                <p>Прозрачная методология работы от идеи до запуска и поддержки</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step animate animate-delay-1">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title"><span class="step-icon">🔍</span> Анализ и стратегия</h3>
+                        <p>Изучаем ваш бизнес, целевую аудиторию и конкурентов. Формируем четкую стратегию и техническое задание.</p>
+                    </div>
+                </div>
+                <div class="process-step animate animate-delay-2">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title"><span class="step-icon">🎨</span> Дизайн и прототипирование</h3>
+                        <p>Создаем интерактивные прототипы и визуальный дизайн с учетом всех ваших пожеланий и лучших практик UX.</p>
+                    </div>
+                </div>
+                <div class="process-step animate animate-delay-3">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title"><span class="step-icon">💻</span> Разработка</h3>
+                        <p>Пишем чистый и эффективный код, тестируем на всех устройствах и платформах, внедряем аналитику.</p>
+                    </div>
+                </div>
+                <div class="process-step animate animate-delay-4">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 class="step-title"><span class="step-icon">🚀</span> Запуск и поддержка</h3>
+                        <p>Обеспечиваем плавный запуск проекта, обучаем вашу команду и предоставляем техническую поддержку.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="section" style="background-color: var(--color-lunar-dust);">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Отзывы клиентов</h2>
+                <p>Что говорят о нас те, кто уже работал с нами</p>
+            </div>
+            
+            <div class="reviews-container">
+                <div class="review-card animate">
+                    <p class="review-content">Команда Nexus Studio превзошла все наши ожидания. Они не просто создали сайт, а полностью пересмотрели наш подход к цифровому присутствию. За 3 месяца после запуска мы увидели рост конверсии на 200% и значительно улучшили пользовательский опыт.</p>
+                    <div class="review-author">
+                        <div class="author-avatar">АК</div>
+                        <div class="author-info">
+                            <h4>Анна Козлова</h4>
+                            <p>Маркетинговый директор, Эко-Маркет</p>
+                        </div>
+                    </div>
+                    <div class="review-footer">
+                        <div class="review-rating">
+                            <span>★</span>
+                            <span>★</span>
+                            <span>★</span>
+                            <span>★</span>
+                            <span>★</span>
+                        </div>
+                        <span>Проект: Сайт и приложение для экомагазина</span>
+                    </div>
+                </div>
+                
+                <div class="review-nav">
+                    <div class="review-dot active" data-review="0"></div>
+                    <div class="review-dot" data-review="1"></div>
+                    <div class="review-dot" data-review="2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Статистика -->
+    <section class="section stats">
+        <div class="container">
+            <div class="stats-content">
+                <h2 class="animate" style="color: white; margin-bottom: var(--space-2xl);">Цифры говорят сами за себя</h2>
+                <div class="stats-grid">
+                    <div class="stat-item animate animate-delay-1">
+                        <div class="stat-number" data-count="150">0</div>
+                        <div class="stat-label">Завершенных проектов</div>
+                    </div>
+                    <div class="stat-item animate animate-delay-2">
+                        <div class="stat-number" data-count="98">0</div>
+                        <div class="stat-label">Довольных клиентов</div>
+                    </div>
+                    <div class="stat-item animate animate-delay-3">
+                        <div class="stat-number" data-count="4.9">0</div>
+                        <div class="stat-label">Средний рейтинг</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Финальный CTA -->
+    <section class="section">
+        <div class="container">
+            <div class="cta animate">
+                <h2>Ваш проект начинается здесь</h2>
+                <p>Расскажите нам о своей идее, и мы предложим решение, которое поможет вашему бизнесу расти и развиваться в цифровом мире.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-lg">Начать проект</a>
+                    <a href="about.html#this-site" class="btn btn-secondary btn-lg">О нашем подходе</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-icon">✨</span>
+                        <span>Nexus <span>Studio</span></span>
+                    </div>
+                    <p>Создаем цифровые продукты, которые помогают бизнесу расти, привлекать клиентов и достигать стратегических целей.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Telegram">✈️</a>
+                        <a href="#" class="social-link" aria-label="VK">VK</a>
+                        <a href="#" class="social-link" aria-label="Behance">B</a>
+                        <a href="#" class="social-link" aria-label="GitHub">G</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Навигация</h3>
+                    <div class="footer-links-grid">
+                        <a href="services.html" class="footer-link">Услуги</a>
+                        <a href="portfolio.html" class="footer-link">Портфолио</a>
+                        <a href="process.html" class="footer-link">Процесс</a>
+                        <a href="blog.html" class="footer-link">Блог</a>
+                        <a href="about.html" class="footer-link">О нас</a>
+                        <a href="contact.html" class="footer-link">Контакты</a>
+                    </div>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Контакты</h3>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>hello@nexusstudio.ru</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>+7 (495) 123-45-67</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">🏢</span>
+                        <span>Москва, ул. Тверская, 15</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nexus Studio. Все права защищены. Создано с ❤️ на чистом HTML, CSS и Vanilla JS.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+</html>

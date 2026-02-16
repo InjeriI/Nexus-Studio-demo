@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио Nexus Studio — кейсы разработки сайтов, приложений и брендинга">
+    <meta property="og:title" content="Портфолио | Nexus Studio">
+    <meta property="og:description" content="Реальные проекты, созданные нашей командой">
+    <title>Портфолио | Nexus Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-portfolio">
+    <!-- Хедер -->
+    <header class="header" data-header>
+        <div class="container header-container">
+            <a href="index.html" class="logo" aria-label="Nexus Studio - Главная">
+                <span class="logo-icon">✨</span>
+                <span class="logo-text">Nexus Studio</span>
+            </a>
+            
+            <nav class="nav" aria-label="Основная навигация">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Главная</a></li>
+                    <li><a href="services.html" class="nav-link">Услуги</a></li>
+                    <li><a href="portfolio.html" class="nav-link active">Портфолио</a></li>
+                    <li><a href="process.html" class="nav-link">Процесс</a></li>
+                    <li><a href="blog.html" class="nav-link">Блог</a></li>
+                    <li><a href="about.html" class="nav-link">О нас</a></li>
+                    <li><a href="contact.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="theme-toggle" aria-label="Переключить тему" data-theme-toggle>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                    </svg>
+                </button>
+                <button class="burger-menu" aria-label="Меню" data-burger-menu>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Мобильное меню -->
+        <div class="mobile-menu" data-mobile-menu>
+            <div class="mobile-menu-header">
+                <a href="index.html" class="logo" aria-label="Nexus Studio - Главная">
+                    <span class="logo-icon">✨</span>
+                    <span class="logo-text">Nexus Studio</span>
+                </a>
+                <button class="burger-menu active" aria-label="Закрыть меню" data-burger-menu>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="index.html" class="mobile-nav-link">Главная</a></li>
+                <li><a href="services.html" class="mobile-nav-link">Услуги</a></li>
+                <li><a href="portfolio.html" class="mobile-nav-link active">Портфолио</a></li>
+                <li><a href="process.html" class="mobile-nav-link">Процесс</a></li>
+                <li><a href="blog.html" class="mobile-nav-link">Блог</a></li>
+                <li><a href="about.html" class="mobile-nav-link">О нас</a></li>
+                <li><a href="contact.html" class="mobile-nav-link">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu-actions">
+                <button class="btn btn-lg btn-primary">Обсудить проект</button>
+                <button class="theme-toggle" aria-label="Переключить тему" data-theme-toggle>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    <!-- Герой -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Наши работы</h1>
+                <p>Реальные проекты, которые мы создали для наших клиентов</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши проекты</h2>
+                <p>Кейсы, созданные нашей командой</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="web">Сайты</button>
+                <button class="filter-btn" data-filter="app">Приложения</button>
+                <button class="filter-btn" data-filter="branding">Брендинг</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-card" data-category="web app" data-project="eco-market">
+                    <div class="portfolio-img">🌐</div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Сайт</span>
+                            <span class="portfolio-tag">Приложение</span>
+                        </div>
+                        <h3>Эко-Маркет</h3>
+                        <p>Платформа для экологичных товаров с личным кабинетом и системой лояльности.</p>
+                        <div class="portfolio-result">
+                            <span>★</span> +200% конверсии
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="branding web" data-project="bean-coffee">
+                    <div class="portfolio-img">🏷️</div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Брендинг</span>
+                            <span class="portfolio-tag">Сайт</span>
+                        </div>
+                        <h3>Кофейня Bean</h3>
+                        <p>Полный ребрендинг сети кофеен: айдентика, упаковка, сайт и мобильное приложение для заказа.</p>
+                        <div class="portfolio-result">
+                            <span>★</span> +150% узнаваемости
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="app" data-project="fitlife-app">
+                    <div class="portfolio-img">📱</div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Приложение</span>
+                        </div>
+                        <h3>FitLife</h3>
+                        <p>Мобильное приложение для трекинга фитнес-активности с персонализированными программами тренировок.</p>
+                        <div class="portfolio-result">
+                            <span>★</span> 4.9/5 в магазинах
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="web" data-project="marketpro">
+                    <div class="portfolio-img">🛒</div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Сайт</span>
+                        </div>
+                        <h3>MarketPro</h3>
+                        <p>Современный интернет-магазин с интеграцией CRM и системой аналитики.</p>
+                        <div class="portfolio-result">
+                            <span>★</span> +120% заказов
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="branding" data-project="techstart-brand">
+                    <div class="portfolio-img">🎨</div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Брендинг</span>
+                        </div>
+                        <h3>TechStart</h3>
+                        <p>Разработка уникального визуального стиля для стартапа в сфере IT.</p>
+                        <div class="portfolio-result">
+                            <span>★</span> Награда за дизайн
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="web app" data-project="businesshub">
+                    <div class="portfolio-img">💼</div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Сайт</span>
+                            <span class="portfolio-tag">Приложение</span>
+                        </div>
+                        <h3>BusinessHub</h3>
+                        <p>Корпоративная платформа для управления проектами и командами.</p>
+                        <div class="portfolio-result">
+                            <span>★</span> +300% эффективности
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно деталей проекта -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="modal-title">Заголовок проекта</h3>
+                <button class="modal-close" id="close-modal">&times;</button>
+            </div>
+            <div class="modal-content">
+                <div class="modal-hero" id="modal-hero">🚀</div>
+                
+                <div class="project-details">
+                    <div class="detail-section">
+                        <h3>Задача</h3>
+                        <p id="modal-task">Описание задачи проекта</p>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h3>Решение</h3>
+                        <p id="modal-solution">Описание решения проекта</p>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h3>Результат</h3>
+                        <p id="modal-result">Описание результата проекта</p>
+                    </div>
+                </div>
+                
+                <div class="detail-section">
+                    <h3>Технологический стек</h3>
+                    <div class="tech-stack" id="modal-tech-stack">
+                        <span class="tech-item">React</span>
+                        <span class="tech-item">Node.js</span>
+                        <span class="tech-item">Figma</span>
+                    </div>
+                </div>
+                
+                <div class="gallery" id="modal-gallery">
+                    <div class="gallery-item">🖼️</div>
+                    <div class="gallery-item">🖼️</div>
+                    <div class="gallery-item">🖼️</div>
+                    <div class="gallery-item">🖼️</div>
+                </div>
+                
+                <div class="client-quote" id="modal-quote">
+                    <p>"Цитата клиента о проекте."</p>
+                    <cite>- Имя Клиента, Должность</cite>
+                </div>
+                
+                <div class="project-actions">
+                    <a href="#" class="btn btn-primary" id="view-project-btn">Посмотреть проект</a>
+                    <a href="contact.html" class="btn btn-secondary">Обсудить похожий</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-icon">✨</span>
+                        <span>Nexus <span>Studio</span></span>
+                    </div>
+                    <p>Создаем цифровые продукты, которые помогают бизнесу расти, привлекать клиентов и достигать стратегических целей.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Telegram">✈️</a>
+                        <a href="#" class="social-link" aria-label="VK">VK</a>
+                        <a href="#" class="social-link" aria-label="Behance">B</a>
+                        <a href="#" class="social-link" aria-label="GitHub">G</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Навигация</h3>
+                    <div class="footer-links-grid">
+                        <a href="index.html" class="footer-link">Главная</a>
+                        <a href="services.html" class="footer-link">Услуги</a>
+                        <a href="portfolio.html" class="footer-link">Портфолио</a>
+                        <a href="process.html" class="footer-link">Процесс</a>
+                        <a href="blog.html" class="footer-link">Блог</a>
+                        <a href="about.html" class="footer-link">О нас</a>
+                        <a href="contact.html" class="footer-link">Контакты</a>
+                    </div>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Контакты</h3>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>hello@nexusstudio.ru</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>+7 (495) 123-45-67</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">🏢</span>
+                        <span>Москва, ул. Тверская, 15</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nexus Studio. Все права защищены. Создано с ❤️ на чистом HTML, CSS и Vanilla JS.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+</html>

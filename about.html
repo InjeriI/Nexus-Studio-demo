@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="О Nexus Studio — команда экспертов в области цифровых решений">
+    <meta property="og:title" content="О нас | Nexus Studio">
+    <meta property="og:description" content="Основаны в 2022. Команда из 15 экспертов, создающих цифровые продукты">
+    <title>О нас | Nexus Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-about">
+    <!-- Хедер -->
+    <header class="header" data-header>
+        <div class="container header-container">
+            <a href="index.html" class="logo" aria-label="Nexus Studio - Главная">
+                <span class="logo-icon">✨</span>
+                <span class="logo-text">Nexus Studio</span>
+            </a>
+            
+            <nav class="nav" aria-label="Основная навигация">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Главная</a></li>
+                    <li><a href="services.html" class="nav-link">Услуги</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Портфолио</a></li>
+                    <li><a href="process.html" class="nav-link">Процесс</a></li>
+                    <li><a href="blog.html" class="nav-link">Блог</a></li>
+                    <li><a href="about.html" class="nav-link active">О нас</a></li>
+                    <li><a href="contact.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="theme-toggle" aria-label="Переключить тему" data-theme-toggle>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                    </svg>
+                </button>
+                <button class="burger-menu" aria-label="Меню" data-burger-menu>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Мобильное меню -->
+        <div class="mobile-menu" data-mobile-menu>
+            <div class="mobile-menu-header">
+                <a href="index.html" class="logo" aria-label="Nexus Studio - Главная">
+                    <span class="logo-icon">✨</span>
+                    <span class="logo-text">Nexus Studio</span>
+                </a>
+                <button class="burger-menu active" aria-label="Закрыть меню" data-burger-menu>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="index.html" class="mobile-nav-link">Главная</a></li>
+                <li><a href="services.html" class="mobile-nav-link">Услуги</a></li>
+                <li><a href="portfolio.html" class="mobile-nav-link">Портфолио</a></li>
+                <li><a href="process.html" class="mobile-nav-link">Процесс</a></li>
+                <li><a href="blog.html" class="mobile-nav-link">Блог</a></li>
+                <li><a href="about.html" class="mobile-nav-link active">О нас</a></li>
+                <li><a href="contact.html" class="mobile-nav-link">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu-actions">
+                <button class="btn btn-lg btn-primary">Обсудить проект</button>
+                <button class="theme-toggle" aria-label="Переключить тему" data-theme-toggle>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    <!-- Герой -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>О нас</h1>
+                <p>Команда экспертов, создающих цифровые решения</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- История -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наша история</h2>
+            </div>
+            
+            <div class="history-content">
+                <p>Основаны в 2022 году. Сегодня — команда из 15 экспертов, создающих цифровые продукты, которые помогают бизнесу расти, привлекать клиентов и достигать стратегических целей.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Команда -->
+    <section class="section team-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наша команда</h2>
+                <p>Профессионалы, создающие цифровые решения</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-card-inner">
+                        <div class="team-front">
+                            <div class="team-avatar">👨‍💻</div>
+                            <h3>Алексей Петров</h3>
+                            <p>CEO И Основатель</p>
+                        </div>
+                        <div class="team-back">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn">💼</a>
+                                <a href="#" aria-label="Twitter">🐦</a>
+                                <a href="#" aria-label="GitHub">🐙</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-card-inner">
+                        <div class="team-front">
+                            <div class="team-avatar">👩‍🎨</div>
+                            <h3>Мария Иванова</h3>
+                            <p>Креативный Директор</p>
+                        </div>
+                        <div class="team-back">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn">💼</a>
+                                <a href="#" aria-label="Behance">B</a>
+                                <a href="#" aria-label="Dribbble">D</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-card-inner">
+                        <div class="team-front">
+                            <div class="team-avatar">👨‍💻</div>
+                            <h3>Дмитрий Сидоров</h3>
+                            <p>Главный Разработчик</p>
+                        </div>
+                        <div class="team-back">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn">💼</a>
+                                <a href="#" aria-label="GitHub">🐙</a>
+                                <a href="#" aria-label="Twitter">🐦</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-card-inner">
+                        <div class="team-front">
+                            <div class="team-avatar">👩‍💼</div>
+                            <h3>Елена Козлова</h3>
+                            <p>Менеджер Проектов</p>
+                        </div>
+                        <div class="team-back">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn">💼</a>
+                                <a href="#" aria-label="Twitter">🐦</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ценности -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши ценности</h2>
+                <p>На чем мы строим свою работу</p>
+            </div>
+            
+            <div class="values-grid">
+                <div class="value-item">
+                    <div class="value-icon">🎯</div>
+                    <h3>Качество</h3>
+                    <p>Мы стремимся к совершенству в каждом проекте, уделяя внимание деталям и тестированию.</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">🤝</div>
+                    <h3>Эмпатия</h3>
+                    <p>Мы слушаем клиента и понимаем, что важно для его бизнеса и пользователей.</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">💡</div>
+                    <h3>Инновации</h3>
+                    <p>Постоянно изучаем новые технологии и подходы, чтобы предложить лучшее решение.</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">💼</div>
+                    <h3>Ответственность</h3>
+                    <p>Мы отвечаем за результат и поддерживаем проекты даже после завершения.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Этот сайт -->
+    <section class="section this-site-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Этот сайт</h2>
+                <p>Пример нашей работы</p>
+            </div>
+            
+            <div class="this-site-content">
+                <p><strong>Сделано на:</strong> HTML5, CSS3, Vanilla JS</p>
+                <p><strong>Оптимизировано:</strong> LCP &lt; 1.2s, доступность AA</p>
+                <p><strong>Философия:</strong> Чистый код, без фреймворков, высокая производительность, кроссплатформенность, адаптивность</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Культура -->
+    <section class="section culture-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Культура команды</h2>
+                <p>Как мы работаем и отдыхаем</p>
+            </div>
+            
+            <div class="culture-content">
+                <div class="culture-team-photo">
+                    <div class="team-photo">👥</div>
+                </div>
+                
+                <div class="culture-testimonials">
+                    <div class="testimonial">
+                        <p>«В Nexus Studio я чувствую, что моя работа действительно важна. Команда поддерживает и вдохновляет каждый день.»</p>
+                        <cite>— Анна, UI/UX Designer</cite>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <p>«Здесь ценят творчество и позволяют пробовать новое. Это делает каждую задачу интересной.»</p>
+                        <cite>— Сергей, Frontend Developer</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-icon">✨</span>
+                        <span>Nexus <span>Studio</span></span>
+                    </div>
+                    <p>Создаем цифровые продукты, которые помогают бизнесу расти, привлекать клиентов и достигать стратегических целей.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Telegram">✈️</a>
+                        <a href="#" class="social-link" aria-label="VK">VK</a>
+                        <a href="#" class="social-link" aria-label="Behance">B</a>
+                        <a href="#" class="social-link" aria-label="GitHub">G</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Навигация</h3>
+                    <div class="footer-links-grid">
+                        <a href="index.html" class="footer-link">Главная</a>
+                        <a href="services.html" class="footer-link">Услуги</a>
+                        <a href="portfolio.html" class="footer-link">Портфолио</a>
+                        <a href="process.html" class="footer-link">Процесс</a>
+                        <a href="blog.html" class="footer-link">Блог</a>
+                        <a href="about.html" class="footer-link">О нас</a>
+                        <a href="contact.html" class="footer-link">Контакты</a>
+                    </div>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Контакты</h3>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>hello@nexusstudio.ru</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>+7 (495) 123-45-67</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="contact-icon">🏢</span>
+                        <span>Москва, ул. Тверская, 15</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nexus Studio. Все права защищены. Создано с ❤️ на чистом HTML, CSS и Vanilla JS.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
