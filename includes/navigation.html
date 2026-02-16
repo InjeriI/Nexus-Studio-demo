@@ -1,0 +1,65 @@
+<!-- Мобильное меню -->
+        <div class="mobile-menu" data-mobile-menu>
+            <div class="mobile-menu-header">
+                <a href="index.html" class="logo" aria-label="Nexus Studio - Главная">
+                    <span class="logo-icon">✨</span>
+                    <span class="logo-text">Nexus Studio</span>
+                </a>
+                <button class="burger-menu active" aria-label="Закрыть меню" data-burger-menu>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="services.html" class="mobile-nav-link">Услуги</a></li>
+                <li><a href="portfolio.html" class="mobile-nav-link active">Портфолио</a></li>
+                <li><a href="process.html" class="mobile-nav-link">Процесс</a></li>
+                <li><a href="blog.html" class="mobile-nav-link">Блог</a></li>
+                <li><a href="about.html" class="mobile-nav-link">О нас</a></li>
+                <li><a href="contact.html" class="mobile-nav-link">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu-actions">
+                <!-- Сюда кнопку смены темы -->
+                <button class="btn btn-lg btn-primary">Обсудить проект</button>
+            </div>
+        </div>
+
+<script>
+
+    // === МОБИЛЬНОЕ МЕНЮ ===
+        function initMobileMenu() {
+            const burgerMenu = document.querySelector('[data-burger-menu]');
+            const mobileMenu = document.querySelector('[data-mobile-menu]');
+            const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+            
+            if (!burgerMenu || !mobileMenu) return;
+            
+            // Переключение меню
+            burgerMenu.addEventListener('click', () => {
+                mobileMenu.classList.toggle('active');
+                burgerMenu.classList.toggle('active');
+                document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+            });
+            
+            // Закрытие меню при клике на ссылку
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.remove('active');
+                    burgerMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+            
+            // Закрытие меню при клике вне его
+            document.addEventListener('click', (e) => {
+                if (mobileMenu.classList.contains('active') && 
+                    !mobileMenu.contains(e.target) && 
+                    !burgerMenu.contains(e.target)) {
+                    mobileMenu.classList.remove('active');
+                    burgerMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+        }
+</script>
